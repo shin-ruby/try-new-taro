@@ -22,15 +22,15 @@ import './index.scss'
 }))
 class Index extends Component {
 
-    config = {
-    navigationBarTitleText: '首页'
-  }
-
   componentWillReceiveProps (nextProps) {
     console.log(this.props, nextProps)
   }
 
   componentWillUnmount () { }
+
+  config = {
+    navigationBarTitleText: '首页'
+  }
 
   componentDidShow () { }
 
